@@ -4,9 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing of Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/navigationBar.css" />
     <title>Flounderland</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="navigationBar">
+      <nav>
+        <input type="checkbox" id="responsive" />
+        <label for="responsive" class="responsive">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Flounderland</label>
+        <ul>
+          <li class="active">
+            <a href="#"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-briefcase"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-handshake-o" s></i>Handicrafts</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-phone"></i>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </body>
 </html>
