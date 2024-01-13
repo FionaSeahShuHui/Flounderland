@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing of Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/styles/index.css" />
+    <link rel="stylesheet" href="../assets/styles/navigationBar.css" />
+    <title>Flounderland</title>
+  </head>
+  <body>
+    <div class="navigationBar">
+      <nav>
+        <input type="checkbox" id="responsive" />
+        <label for="responsive" class="responsive">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Flounderland</label>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-picture-o"></i>Photos</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-briefcase"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-handshake-o" s></i>Handicrafts</a>
+          </li>
+          <li class="active">
+            <a href="contact.html"><i class="fa fa-phone" a></i>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="contactForm">
+        <h1>Contact Form</h1>
+        <form action="https://api.web3forms.com/submit" method="POST" />
+        <input type="hidden" name="access_key" value="55993fe8-1b09-4b47-b0c9-cfbf58a9c8c9">
+          <input
+            autofocus
+            id="name"
+            type="text"
+            name="Name"
+            placeholder="Please enter your name"
+            required
+          />
+          <input
+            id="email"
+            type="email"
+            name="Email"
+            placeholder="Please enter email"
+            required
+          />
+          <label for="origin">Place of origin</label>
+          <select id="origin"></select>
+          <textarea name="Message" placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+          
+          <script src="assets/js/dropdownFields/origin.js"></script>
+          <script src="assets/js/contact.js"></script>
+          <script src="https://web3forms.com/client/script.js" async defer></script>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
