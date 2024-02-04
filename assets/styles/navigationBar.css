@@ -41,6 +41,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a i {
+  margin-right: 10px;
+}
+
 nav ul li.active {
   background-color: #bea898;
 }
@@ -76,6 +80,12 @@ a:hover {
 }
 
 @media (max-width: 858px) {
+  .navigationBar {
+    position: fixed; /* Fix the navbar position on smaller screens */
+    width: 100%; /* Set the navbar width to 100% */
+    z-index: 1000; /* Ensure the navbar stays on top */
+  }
+
   .logo {
     margin-left: 20px;
   }
@@ -116,8 +126,4 @@ a:hover {
   #responsive:checked ~ ul {
     left: 0;
   }
-}
-
-.navigationBar nav ul li a .fa {
-  margin-right: 8px;
 }
