@@ -13,11 +13,9 @@ nav {
 
 .logo {
   color: #7d614e;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 60px;
   padding: 0 30px;
-  font-weight: bold;
-  font-family: cursive;
 }
 
 nav ul {
@@ -29,12 +27,12 @@ nav ul {
 nav ul li {
   display: inline-block;
   line-height: 60px;
-  margin: 0 5px;
+  margin: 0 0px;
 }
 
 nav ul li a {
   color: #7d614e;
-  font-size: 17px;
+  font-size: 15px;
   text-transform: capitalize;
   padding: 7px 13px;
   border-radius: 3px;
@@ -68,10 +66,17 @@ a:hover {
   display: none;
 }
 
+/* Tablet Size */
 @media (max-width: 952px) {
   .logo {
     font-size: 20px;
     padding-left: 20px;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 10px;
+    list-style: none;
   }
 
   nav ul li a {
@@ -79,15 +84,17 @@ a:hover {
   }
 }
 
+/* Handphone Size */
 @media (max-width: 858px) {
   .navigationBar {
-    position: fixed; /* Fix the navbar position on smaller screens */
-    width: 100%; /* Set the navbar width to 100% */
-    z-index: 1000; /* Ensure the navbar stays on top */
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
 
   .logo {
     margin-left: 20px;
+    font-size: 20px;
   }
   .responsive {
     display: block;
