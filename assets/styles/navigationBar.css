@@ -87,7 +87,6 @@ a:hover {
 /* Handphone Size */
 @media (max-width: 858px) {
   .navigationBar {
-    position: fixed;
     width: 100%;
     z-index: 1000;
   }
@@ -96,6 +95,7 @@ a:hover {
     margin-left: 20px;
     font-size: 20px;
   }
+
   .responsive {
     display: block;
   }
@@ -103,12 +103,13 @@ a:hover {
   nav ul {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #cebdb1;
-    top: 60px;
-    left: 100%;
+    top: 50px;
+    left: 100%; /* Allow The OverLay Navigation Bar to hide */
     text-align: center;
     transition: all 0.5s;
+    z-index: 1;
   }
 
   nav ul li {
@@ -127,6 +128,7 @@ a:hover {
 
   a:hover {
     color: white;
+    text-decoration: none;
     background: none;
   }
 
