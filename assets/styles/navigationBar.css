@@ -67,7 +67,7 @@ a:hover {
   display: none;
 }
 
-/* Handphone Size */
+/* Handphone & Tablet Size */
 @media (max-width: 952px) {
   .navigationBar {
     width: 100%;
