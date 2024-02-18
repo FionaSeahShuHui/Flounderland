@@ -25,12 +25,12 @@ footer {
 }
 
 .social a:hover {
-  background-color: black;
+  background-color: #7d614e;
   transition: 0.5s;
 }
 
 .social a:hover i {
-  color: red;
+  color: white;
   transition: 0.5s;
 }
 
