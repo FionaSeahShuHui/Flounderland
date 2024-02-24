@@ -1,0 +1,130 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.miniNavBar {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  background-color: #bea898;
+  padding: 20px;
+}
+
+.miniNavBar .navBarPath ol li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #7d614e;
+}
+
+.miniNavBar .navBarPath ol li a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.miniNavBar h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #7d614e;
+}
+
+.miniNavBar ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: default;
+}
+
+.miniNavBar ol li + li {
+  padding-left: 10px;
+}
+
+.miniNavBar ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  content: "/";
+  color: #7d614e;
+}
+
+.projectDetails .projectTitle {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.projectDetails .projectInformation {
+  display: flex;
+}
+
+.projectDetails .projectNaviationBar {
+  width: 2000px;
+  background-color: #ded2ca;
+  padding: 20px;
+}
+
+.projectDetails .projectInformation {
+  flex: 1;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.projectDetails .projectNaviationBar a {
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 16px;
+  color: #7d614e;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.projectDetails .projectNaviationBar a:hover {
+  color: black;
+}
+
+.projectDetails .projectDescription {
+  margin-left: 30px;
+}
+
+.projectDetails .projectDescription h2 {
+  margin-bottom: 10px;
+}
+
+.projectDetails .projectDescription hr {
+  margin-bottom: 10px;
+}
+
+.projectDetails .projectDescription h4 {
+  margin-bottom: 10px;
+}
+
+.projectDetails .projectDescription p {
+  margin-bottom: 10px;
+  text-align: justify;
+  line-height: 2em;
+}
+
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  color: #7d614e;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ded2ca;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+  background-color: #7d614e;
+  color: white;
+}

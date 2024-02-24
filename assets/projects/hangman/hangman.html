@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing of Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="../../../assets/styles/index.css" />
+    <link rel="stylesheet" href="../../../assets/styles/navigationBar.css" />
+    <link rel="stylesheet" href="../../../assets/styles/footer.css" />
+    <link rel="stylesheet" href="../hangman/hangman.css" />
+    <title>Flounderland</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navigationBar">
+        <input type="checkbox" id="responsive" />
+        <label for="responsive" class="responsive">
+          <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">Flounderland</label>
+        <ul>
+          <li>
+            <a href="../../../index.html"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-picture-o"></i>Photos</a>
+          </li>
+          <li class="active">
+            <a href="../../../projects.html"
+              ><i class="fa fa-briefcase"></i>Projects</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-handshake-o" s></i>Handicrafts</a>
+          </li>
+          <li>
+            <a href="../../../contact.html"
+              ><i class="fa fa-phone"></i>Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="miniNavBar">
+      <div class="container">
+        <div class="navBarPath justify-content-between align-items-center">
+          <ol>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="../../../projects.html">Projects</a></li>
+            <li>Project 1 - Hangman</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="projectDetails">
+      <div class="projectTitle">
+        <h1>Hangman</h1>
+      </div>
+      <div class="projectInformation">
+        <div class="projectNaviationBar">
+          <a href="#overview" class="navigationBarButton">Project Overview</a>
+          <a href="#structure" class="navigationBarButton">Project Structure</a>
+          <a href="#testing" class="navigationBarButton">Testing</a>
+          <a href="#challenges" class="navigationBarButton">Challenges Faced</a>
+          <a href="#enhanchement" class="navigationBarButton"
+            >Future Enhancement</a
+          >
+        </div>
+        <div class="projectDescription">
+          <div id="overview">
+            <h2>Project Overview</h2>
+            <hr />
+            <h4>Introduction</h4>
+            <p>
+              Hangman is a classic word-guessing game where players try to guess
+              a word letter by letter. Each incorrect guess results in a part of
+              a stick figure being drawn. The game continues until the player
+              correctly guesses the word or until the stick figure is fully
+              drawn, resulting in a loss. In this project, a Hangman game has
+              been implemented using HTML, CSS, and JavaScript.
+            </p>
+            <h4>Key Features</h4>
+            <p>
+              The Hangman game will feature an interface where players can guess
+              letters to uncover a hidden word within a set number of attempts.
+              The game will dynamically display the hidden word as a series of
+              blanks, updating with correct guesses and tracking incorrect ones.
+              Additionally, a hangman figure will gradually appear as incorrect
+              guesses accumulate, adding a visual element to the game. Players
+              will be notified of their progress and whether they win or lose
+              based on their guesses and the completion of the hidden word.
+              Overall, the game aims to provide an engaging and interactive
+              experience for players of all ages.
+            </p>
+            <h4>Technologies Used</h4>
+            <p>
+              In this project, HTML, CSS, and JavaScript is used to develop the
+              hangman game. HTML structures the layout of the game, CSS styles
+              it for visual appeal, and JavaScript provides the game's
+              functionality and interactivity. JavaScript handles tasks such as
+              generating random words, managing user input for guessing letters,
+              updating the display with correct guesses, and tracking incorrect
+              attempts to draw the hangman. We utilize event listeners and DOM
+              manipulation to handle user interactions and update the game state
+              accordingly. Through this combination of technologies, we create
+              an entertaining and interactive hangman game that runs seamlessly
+              in web browsers.
+            </p>
+          </div>
+          <div id="structure">
+            <h2>Project Structure</h2>
+            <hr />
+            <p>
+              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a
+              type specimen book. It has survived not only five centuries, but
+              also the leap into electronic typesetting, remaining essentially
+              unchanged. It was popularised in the 1960s with the release of
+              Letraset sheets containing Lorem Ipsum passages, and more recently
+              with desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum. Why do we use it? It is a long
+              established fact that a reader will be distracted by the readable
+              content of a page when looking at its layout. The point of using
+              Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters, as opposed to using 'Content here, content here', making
+              it look like readable English. Many desktop publishing packages
+              and web page editors now use Lorem Ipsum as their default model
+              text, and a search for 'lorem ipsum' will uncover many web sites
+              still in their infancy. Various versions have evolved over the
+              years, sometimes by accident, sometimes on purpose (injected
+              humour and the like). Where does it come from? Contrary to popular
+              belief, Lorem Ipsum is not simply random text. It has roots in a
+              piece of classical Latin literature from 45 BC, making it over
+              2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more
+              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+              going through the cites of the word in classical literature,
+              discovered the undoubtable source. Lorem Ipsum comes from sections
+              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+              is a treatise on the theory of ethics, very popular during the
+              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32. The standard chunk
+              of Lorem Ipsum used since the 1500s is reproduced below for those
+              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
+              et Malorum" by Cicero are also reproduced in their exact original
+              form, accompanied by English versions from the 1914 translation by
+              H. Rackham. Where can I get some? There are many variations of
+              passages of Lorem Ipsum available, but the majority have suffered
+              alteration in some form, by injected humour, or randomised words
+              which don't look even slightly believable. If you are going to use
+              a passage of Lorem Ipsum, you need to be sure there isn't anything
+              embarrassing hidden in the middle of text. All the Lorem Ipsum
+              generators on the Internet tend to repeat predefined chunks as
+              necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with a
+              handful of model sentence structures, to generate Lorem Ipsum
+              which looks reasonable. The generated Lorem Ipsum is therefore
+              always free from repetition, injected humour, or
+              non-characteristic words etc. 5 paragraphs words bytes lists Start
+              with 'Lorem ipsum dolor sit amet...'
+            </p>
+          </div>
+          <div id="testing">
+            <h2>Testing</h2>
+            <hr />
+            <p>
+              Ensuring the robustness of the Hangman game involves a meticulous
+              testing process. The focus lies in guaranteeing interactions
+              between various components. This encompasses meticulous checks on
+              game state management to ensure smooth transitions between
+              different phases of the game. Additionally, meticulous validation
+              of word selection logic is carried out to ensure the game's core
+              mechanics operate flawlessly. Though user inputs are absent, the
+              game mechanics are rigorously tested to simulate user interactions
+              and ensure intuitive gameplay. Furthermore, a thorough visual
+              inspection is conducted to verify the interface's appearance and
+              behavior, ensuring a polished and engaging user experience.
+              Through this comprehensive testing regimen, the Hangman game is
+              not only reliable but also promises an immersive gaming experience
+              for players.
+            </p>
+          </div>
+          <div id="challenges">
+            <h2>Challenges Faces</h2>
+            <hr />
+            <p>
+              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a
+              type specimen book. It has survived not only five centuries, but
+              also the leap into electronic typesetting, remaining essentially
+              unchanged. It was popularised in the 1960s with the release of
+              Letraset sheets containing Lorem Ipsum passages, and more recently
+              with desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum. Why do we use it? It is a long
+              established fact that a reader will be distracted by the readable
+              content of a page when looking at its layout. The point of using
+              Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters, as opposed to using 'Content here, content here', making
+              it look like readable English. Many desktop publishing packages
+              and web page editors now use Lorem Ipsum as their default model
+              text, and a search for 'lorem ipsum' will uncover many web sites
+              still in their infancy. Various versions have evolved over the
+              years, sometimes by accident, sometimes on purpose (injected
+              humour and the like). Where does it come from? Contrary to popular
+              belief, Lorem Ipsum is not simply random text. It has roots in a
+              piece of classical Latin literature from 45 BC, making it over
+              2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more
+              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+              going through the cites of the word in classical literature,
+              discovered the undoubtable source. Lorem Ipsum comes from sections
+              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+              is a treatise on the theory of ethics, very popular during the
+              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32. The standard chunk
+              of Lorem Ipsum used since the 1500s is reproduced below for those
+              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
+              et Malorum" by Cicero are also reproduced in their exact original
+              form, accompanied by English versions from the 1914 translation by
+              H. Rackham. Where can I get some? There are many variations of
+              passages of Lorem Ipsum available, but the majority have suffered
+              alteration in some form, by injected humour, or randomised words
+              which don't look even slightly believable. If you are going to use
+              a passage of Lorem Ipsum, you need to be sure there isn't anything
+              embarrassing hidden in the middle of text. All the Lorem Ipsum
+              generators on the Internet tend to repeat predefined chunks as
+              necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with a
+              handful of model sentence structures, to generate Lorem Ipsum
+              which looks reasonable. The generated Lorem Ipsum is therefore
+              always free from repetition, injected humour, or
+              non-characteristic words etc. 5 paragraphs words bytes lists Start
+              with 'Lorem ipsum dolor sit amet...'
+            </p>
+          </div>
+          <div id="enhanchement">
+            <h2>Future Enhancement</h2>
+            <hr />
+            <p>
+              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a
+              type specimen book. It has survived not only five centuries, but
+              also the leap into electronic typesetting, remaining essentially
+              unchanged. It was popularised in the 1960s with the release of
+              Letraset sheets containing Lorem Ipsum passages, and more recently
+              with desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum. Why do we use it? It is a long
+              established fact that a reader will be distracted by the readable
+              content of a page when looking at its layout. The point of using
+              Lorem Ipsum is that it has a more-or-less normal distribution of
+              letters, as opposed to using 'Content here, content here', making
+              it look like readable English. Many desktop publishing packages
+              and web page editors now use Lorem Ipsum as their default model
+              text, and a search for 'lorem ipsum' will uncover many web sites
+              still in their infancy. Various versions have evolved over the
+              years, sometimes by accident, sometimes on purpose (injected
+              humour and the like). Where does it come from? Contrary to popular
+              belief, Lorem Ipsum is not simply random text. It has roots in a
+              piece of classical Latin literature from 45 BC, making it over
+              2000 years old. Richard McClintock, a Latin professor at
+              Hampden-Sydney College in Virginia, looked up one of the more
+              obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+              going through the cites of the word in classical literature,
+              discovered the undoubtable source. Lorem Ipsum comes from sections
+              1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+              Extremes of Good and Evil) by Cicero, written in 45 BC. This book
+              is a treatise on the theory of ethics, very popular during the
+              Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+              amet..", comes from a line in section 1.10.32. The standard chunk
+              of Lorem Ipsum used since the 1500s is reproduced below for those
+              interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
+              et Malorum" by Cicero are also reproduced in their exact original
+              form, accompanied by English versions from the 1914 translation by
+              H. Rackham. Where can I get some? There are many variations of
+              passages of Lorem Ipsum available, but the majority have suffered
+              alteration in some form, by injected humour, or randomised words
+              which don't look even slightly believable. If you are going to use
+              a passage of Lorem Ipsum, you need to be sure there isn't anything
+              embarrassing hidden in the middle of text. All the Lorem Ipsum
+              generators on the Internet tend to repeat predefined chunks as
+              necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with a
+              handful of model sentence structures, to generate Lorem Ipsum
+              which looks reasonable. The generated Lorem Ipsum is therefore
+              always free from repetition, injected humour, or
+              non-characteristic words etc. 5 paragraphs words bytes lists Start
+              with 'Lorem ipsum dolor sit amet...'
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer">
+        <div class="social">
+          <a href="https://www.instagram.com/fionaseahshuhui2606/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/fiona-seah-shu-hui/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/FionaSeahShuHui"
+            ><i class="fa fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <p>
+          Copyright &copy;2024 Designed by
+          <span class="designer">Fiona Seah Shu Hui</span>
+        </p>
+      </div>
+    </footer>
+    <button id="scrollTopBtn" onclick="scrollToTop()">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script src="hangman.js"></script>
+  </body>
+</html>
